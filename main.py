@@ -82,7 +82,7 @@ def load_data_to_mysql(films_data, directors_df, casts_df, genres_df):
 
 # Proses Extract
 folder_path = 'data/'
-num_files_to_extract = 1000
+num_files_to_extract = 2500
 all_films_df = extract_data(folder_path, num_files_to_extract)
 
 # Proses Transform
